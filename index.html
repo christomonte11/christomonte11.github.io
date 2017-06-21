@@ -7,11 +7,11 @@
      a {
          color: red;
      }
-     #promoted-link {
-         background-color: gold;
-     }
      #exec-bio {
          background-color: lightgray;
+     }
+     #exec-bio.alert {
+         background-color: purple;
      }
      .bio-box {
          border: 1px solid black;
@@ -19,8 +19,8 @@
      .bio-box a {
          color: green;
      }
-     .colorized-div {
-         background-color: azure;
+     .bio-box.alert {
+         background-color: red;
      }
     </style>
 </head>
@@ -28,7 +28,7 @@
     <h1>I'm an h1</h1>
     <ul>
         <li>
-            <a href="http://example.com/" id="promoted-link">Link</a>
+            <a href="http://example.com/">Link</a>
         </li>
         <li>
             <a href="http://example.com/">Link</a>
@@ -40,19 +40,19 @@
 
     <h2>I'm an h2</h2>
 
-    <div id="exec-bio" class="bio-box colorized-div">
+    <div id="exec-bio" class="bio-box alert">
         <a href="http://example.com/">I'm a link</a>
     </div>
 
-    <div class="bio-box colorized-div">
+    <div class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
 
-    <div class="bio-box colorized-div">
+    <div class="bio-box">
         <a href="http://example.com/">I'm a link</a>
     </div>
 
-    <div class="bio-box colorized-div">
+    <div class="bio-box alert">
         <a href="http://example.com/">I'm a link</a>
     </div>
 
