@@ -1,0 +1,9 @@
+
+# Jekyll files and folders.
+_site
+.sass-cache
+.jekyll-metadata
+
+# Backup files.
+*~
+
