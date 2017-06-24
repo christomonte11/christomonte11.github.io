@@ -10,6 +10,14 @@ a {
     color: red;
 }
 
+/* HEADER STYLES */
+.header-nav {
+    float: right;
+}
+.header-nav > li {
+    display: inline-block;
+}
+
 /* SOCIAL STYLES */
 .social-list {
     list-style: none;
