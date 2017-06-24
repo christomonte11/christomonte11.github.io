@@ -1,0 +1,85 @@
+/* GLOBAL STYLES */
+body {
+    font-family: helvetica, arial, sans;
+}
+h1 {
+    font-size: 7vw;
+    margin-top: 0;
+}
+a {
+    color: red;
+}
+
+/* SOCIAL STYLES */
+.social-list {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.social-list > li {
+    display: inline-block;
+    margin: 0 .5em;
+}
+.social-link {
+    color: white;
+    background: rgba(150, 150, 150, 0.5);
+    display: inline-block;
+    height: 2.5em;
+    width:  2.5em;
+
+    border-radius: 99px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+
+    box-sizing: border-box;
+    padding-top: 0.85em;
+
+    font-family: helvetica, arial, sans;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* HERO STYLES */
+.full-hero {
+    background-color: #c7dbfc;
+    height: 50vh;
+}
+
+/* BIO STYLES */
+.bio-wrapper {
+    font-size: 1rem;
+    margin: 0 auto 40px;
+    max-width: 960px;
+    overflow: hidden;
+}
+.bio-box {
+    box-sizing: border-box;
+    border: 1px dotted grey;
+    margin: 40px 1% 0;
+    padding: 2%;
+    width:  23%;
+    float: left;
+}
+.bio-box img {
+    width: 100%;
+}
+.bio-box h3 {
+    font-size: 1.5em;
+    margin: -40px 0 1em;
+    text-align: center;
+    color: white;
+}
+.bio-box .social-link {
+    display: block;
+    margin: 2em 0 1em;
+}
+.bio-copy {
+    font-size: 1em;
+    line-height: 1.5;
+}
+.bio-copy a {
+    color: green;
+}
+
