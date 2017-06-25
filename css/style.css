@@ -65,6 +65,7 @@ a {
     text-align: center;
 
     position: relative;
+    left: -30px;
 }
 .header-logo:hover,
 .header-logo:active {
