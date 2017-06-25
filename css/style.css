@@ -11,6 +11,10 @@ a {
 }
 
 /* HEADER STYLES */
+.header {
+    color: white;
+    background-color: black;
+}
 .header-nav {
     float: right;
     padding: 5.5vh 60px 0 0;
@@ -20,21 +24,21 @@ a {
     margin-left: 1em;
 }
 .header-nav > li ~ li {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
     padding-left: 1em;
 }
 .header-nav > li:first-child a {
     color: #ed6e2f;
 }
 .header-nav > li:first-child a:hover {
-    color: black;
+    color: white;
 }
 .header-nav a {
     font-size: 0.8rem;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white
 }
 .header-nav a:hover,
 .header-nav a:active {
