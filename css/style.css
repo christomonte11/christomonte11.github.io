@@ -15,6 +15,11 @@ a {
     color: white;
     background-color: black;
     min-height: 10vh;
+
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+
 }
 .header-nav {
     float: right;
