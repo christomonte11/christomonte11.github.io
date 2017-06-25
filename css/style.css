@@ -1,4 +1,8 @@
 /* GLOBAL STYLES */
+html {
+    padding: 0 30px;
+    box-shadow: 0 0 0 30px black inset;
+}
 body {
     font-family: helvetica, arial, sans;
 }
