@@ -44,14 +44,16 @@ a {
     color: white;
 }
 .header-nav a {
+    color: white;
+}
+.nav-links a {
     font-size: 0.8rem;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    color: white
 }
-.header-nav a:hover,
-.header-nav a:active {
+.nav-links a:hover,
+.nav-links a:active  {
     color: #ed6e2f;
 }
 .header-logo {
@@ -91,6 +93,13 @@ a {
 }
 .footer h3 span {
     color: rgba(255, 255, 255, 0.7);
+}
+.footer-nav li {
+    display: inline-block;
+    margin: 2em 1em 0;
+}
+.footer-nav a {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* SOCIAL STYLES */
