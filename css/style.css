@@ -160,6 +160,19 @@ h2 ~ p {
     transform: translate(0, -50%);
     text-transform: uppercase;
 }
+.hero-content h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 7vw;
+    margin-bottom: 0.25em;
+}
+.hero-content .social-link {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #557c83;
+}
+.hero-content .social-link:hover {
+    background-color: black;
+    color: white;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
