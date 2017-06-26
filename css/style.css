@@ -4,10 +4,10 @@ html {
     box-shadow: 0 0 0 30px black inset;
 }
 body {
-    font-family: helvetica, arial, sans;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    font-family: helvetica, arial, sans;
+    min-height:  100vh;
 }
 .content-container {
     flex-grow: 1;
@@ -23,6 +23,7 @@ a {
 }
 p {
     line-height: 1.5;
+    margin: 0.75em 0;
 }
 h2 {
     font-size: 2em;
@@ -208,16 +209,24 @@ h2 ~ p {
     text-align: center;
 }
 .home-callout {
+    display: flex;
+    align-items: center;
     background-color: black;
     color: white;
     padding: 7vh 0;
 }
 .callout-title {
+    flex-grow: 1;
+    flex-basis: 0;
     font-size: 5.75vw;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
 }
 .callout-copy {
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 600px;
+    padding: 0 3vw;
     font-size: 0.8rem;
 }
 
