@@ -152,6 +152,14 @@ h2 ~ p {
     background-image: url(/images/shark.jpg);
     background-position: center top;
 }
+.hero-content {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 70%;
+    transform: translate(0, -50%);
+    text-transform: uppercase;
+}
 
 /* BIO STYLES */
 .bio-wrapper {
