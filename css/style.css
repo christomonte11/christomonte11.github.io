@@ -11,6 +11,8 @@ body {
 }
 .content-container {
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
     padding-top: 10vh;
     width: 100%;
 }
@@ -263,6 +265,7 @@ h2 ~ p {
 
 /* COLUMN STYLES */
 .col-three {
+    flex: 1;
     display: flex;
 }
 .col {
