@@ -270,7 +270,6 @@ h2 ~ p {
 .col {
     box-sizing: border-box;
     padding: 2em;
-    height: 90vh;
 }
 .col-three .col ~ .col {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -278,13 +277,25 @@ h2 ~ p {
 .col-three .col-nav {
     flex: 0 1 15em;
     overflow: auto;
+    height: 90vh;
 }
 .col-three .col-content {
     flex: 1;
     overflow: auto;
+    height: 90vh;
 }
 .col-three .col-aside {
     flex: 0 1 20em
+}
+.col-two {
+    display: flex;
+}
+.col-two .col-content {
+    flex: 1;
+}
+.col-two .col-aside {
+    flex: 0 0 20em;
+    order: 1;
 }
 
 /* GALLERY STYLES */
