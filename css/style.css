@@ -491,6 +491,41 @@ h4 {
         width: auto;
     }
 
+    /* COLUMN STYLES (GALLERY ONLY) */
+    .gallery .col {
+        padding: 1em;
+    }
+    .gallery .col-nav {
+        flex: 0 1 auto;
+        overflow: auto;
+        height: auto;
+
+        white-space: nowrap;
+        width: 100vw;
+    }
+    .gallery .col-content {
+        flex: 0 1 auto;
+        overflow: visible;
+        height: auto;
+    }
+    .gallery .col-aside {
+        flex: 0 1 auto;
+    }
+
+    /* GALLERY STYLES */
+    .gallery {
+        flex-direction: column;
+        height: 90vh;
+    }
+    .gallery-thumbs > div {
+        display: inline-block;
+    }
+    .gallery-thumbs img {
+        height: 7vh;
+        margin: 0 10px 0 0;
+        width: auto;
+    }
+
     /* BLOG STYLES */
     .blog-recent {
         display: none;
