@@ -485,6 +485,11 @@ h4 {
         left: auto;
     }
 
+    /* HERO STYLES */
+    .half-hero {
+        display: none;
+    }
+
     /* BIO STYLES */
     .bio-box {
         float: none;
