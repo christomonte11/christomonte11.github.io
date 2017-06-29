@@ -209,7 +209,7 @@ h4 {
     height: 45vh;
 }
 
-/* HOMEPAGE STYLES */
+/* HOME STYLES */
 .home-callout {
     display: flex;
     align-items: center;
@@ -483,6 +483,12 @@ h4 {
     }
     .header-logo {
         left: auto;
+    }
+
+    /* BIO STYLES */
+    .bio-box {
+        float: none;
+        width: auto;
     }
 
     /* BLOG STYLES */
