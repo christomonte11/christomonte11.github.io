@@ -468,6 +468,23 @@ h4 {
         box-shadow: none;
     }
 
+    /* HEADER STYLES */
+    .header-nav {
+        padding: 2vh 1em 0 0;
+    }
+    .header-nav > li {
+        margin-left: 0.25em;
+    }
+    .header-nav > li ~ li {
+        padding-left: 0.25em;
+    }
+    .nav-links a {
+        font-size: 0.8333em;
+    }
+    .header-logo {
+        left: auto;
+    }
+
     /* BLOG STYLES */
     .post-aside {
         display: none;
