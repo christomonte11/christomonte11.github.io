@@ -496,6 +496,18 @@ h4 {
         display: none;
     }
 
+    /* HOME STYLES */
+    .home-callout {
+        flex-direction: column;
+        padding: 15vh 5vw;
+    }
+    .callout-title {
+        text-align: left;
+    }
+    .callout-copy {
+        padding: 0 5vw;
+    }
+
     /* BIO STYLES */
     .bio-box {
         float: none;
