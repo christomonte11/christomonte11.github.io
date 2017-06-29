@@ -492,6 +492,13 @@ h4 {
     }
 
     /* BLOG STYLES */
+    .blog-recent {
+        display: none;
+    }
+
+    .blog-previews {
+        padding: 0;
+    }
     .post-aside {
         display: none;
     }
