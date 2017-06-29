@@ -485,6 +485,12 @@ h4 {
         left: auto;
     }
 
+    /* FOOTER STYLES */
+    .footer-nav li {
+        display: inline-block;
+        margin: 2em 0.5em 0;
+    }
+
     /* HERO STYLES */
     .half-hero {
         display: none;
