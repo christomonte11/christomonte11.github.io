@@ -495,9 +495,11 @@ h4 {
     .blog-recent {
         display: none;
     }
-
     .blog-previews {
         padding: 0;
+    }
+    .pull-left {
+        width: 100%;
     }
     .post-aside {
         display: none;
