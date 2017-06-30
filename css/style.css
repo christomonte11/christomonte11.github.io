@@ -516,6 +516,7 @@ h4 {
     margin-right: 0.5em;
 }
 .post-header img {
+    font-size: 1.1rem;
     border-radius: 99px;
     display: inline-block;
     height: 2.5em;
