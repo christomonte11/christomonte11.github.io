@@ -207,6 +207,12 @@ h4 {
     padding-right: 0;
 }
 
+/* MOBILE MENU */
+.mobile-menu-check,
+.show-mobile-menu {
+    display: none;
+}
+
 /* FOOTER STYLES */
 .footer {
     background-color: black;
