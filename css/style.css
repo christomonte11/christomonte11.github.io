@@ -134,14 +134,14 @@ h4 {
     z-index: 9;
 }
 .drop-menu li {
-    background-color: #fff;
+    background-color: white;
 }
 .drop-menu a {
     color: #333;
     display: block;
 }
 .drop-menu {
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     display: none;
     list-style: none;
     padding: 1em 0 0;
@@ -151,7 +151,7 @@ h4 {
 }
 .drop-menu:before {
     border: 0.6em solid;
-    border-color: transparent transparent #fff;
+    border-color: transparent transparent white;
     content: "";
     height: 0;
     position: absolute;
@@ -186,7 +186,7 @@ h4 {
     white-space: nowrap;
 }
 .drop-menu a:hover {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #333;
 }
 .dropdown:hover .drop-trigger:after {
