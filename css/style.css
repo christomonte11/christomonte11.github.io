@@ -252,8 +252,8 @@ h4 {
     color: white;
     background: rgba(150, 150, 150, 0.5);
     display: inline-block;
-    height: 2.5em;
-    width:  2.5em;
+    height: 1.5em;
+    width:  1.5em;
 
     border-radius: 99px;
     line-height: 1;
@@ -261,10 +261,10 @@ h4 {
     vertical-align: middle;
 
     box-sizing: border-box;
-    padding-top: 0.85em;
+    padding-top: 0.25em;
 
     font-family: helvetica, arial, sans;
-    font-size: 1rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-decoration: none;
 }
