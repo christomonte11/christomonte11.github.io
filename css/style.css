@@ -6,7 +6,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: helvetica, arial, sans;
+    font-family: 'Open Sans', helvetica, arial, sans;
     min-height: 100vh;
 }
 .content-container {
@@ -30,7 +30,7 @@ h2 {
     font-size: 2em;
 }
 h2 ~ p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-style: italic;
     margin: 1em auto 0;
     max-width: 70%;
@@ -40,6 +40,10 @@ h4 {
     color: grey;
     font-weight: bold;
     text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Raleway:400', helvetica, arial, sans;
+    font-weight: 100;
 }
 
 /* HEADER STYLES */
@@ -299,6 +303,7 @@ h4 {
     text-transform: uppercase;
 }
 .hero-content h1 {
+    font-family: 'Raleway', helvetica, arial, sans;
     color: rgba(255, 255, 255, 0.8);
     font-size: 7vw;
     margin-bottom: 0.25em;
@@ -327,6 +332,7 @@ h4 {
 }
 .callout-title {
     flex: 1;
+    font-family: 'Raleway', helvetica, arial, sans;
     font-size: 5.75vw;
     text-align: right;
     text-transform: uppercase;
@@ -388,7 +394,7 @@ h4 {
     margin: 2em auto 1em;
 }
 .bio-copy {
-    font-size: 0.75em;
+    font-size: 0.9em;
 }
 
 /* COLUMN STYLES */
@@ -471,6 +477,7 @@ h4 {
     width: 85vw;
 }
 .page h1 {
+    font-family: 'Raleway', helvetica, arial, sans;
     font-size: 3em;
     margin-bottom: 1em;
     text-align: center;
