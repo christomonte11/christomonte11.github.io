@@ -12,6 +12,10 @@ function activateGallery() {
             // Set clicked image as main image.
             let newImageSrc = thumbnail.dataset.largeVersion;
             largeImage.setAttribute("src", newImageSrc);
+
+            // Set alt attribute of main image.
+            let newImageAlt = thumbnail.dataset.title;
+            largeImage.setAttribute("alt", newImageAlt);
         });
     });
 }
