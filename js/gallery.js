@@ -9,13 +9,13 @@ function activateGallery() {
 
     thumbnails.forEach(function(thumbnail) {
         thumbnail.addEventListener("click", function() {
+            let dataset = thumbnail.dataset;
+
             // Set clicked image as main image.
-            let newImageSrc = thumbnail.dataset.largeVersion;
-            largeImage.setAttribute("src", newImageSrc);
+            largeImage.src = dataset.largeVersion;
 
             // Set alt attribute of main image.
-            let newImageAlt = thumbnail.dataset.title;
-            largeImage.setAttribute("alt", newImageAlt);
+            largeImage.alt = dataset.title;
         });
     });
 }
