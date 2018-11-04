@@ -22,6 +22,12 @@ function activateGallery() {
                 alt:   largeImageTitle,
                 title: largeImageTitle,
             });
+
+            // Change which thumbnail which is the current one.
+            let theClass = "current";
+
+            document.querySelector("." + theClass).classList.remove(theClass);
+            thumbnail.parentNode.classList.add(theClass);
         });
     });
 }
