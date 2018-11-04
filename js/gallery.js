@@ -16,6 +16,9 @@ function activateGallery() {
 
             // Set alt attribute of main image.
             largeImage.alt = dataset.title;
+
+            // Set title attribute of main image.
+            largeImage.title = dataset.title;
         });
     });
 }
