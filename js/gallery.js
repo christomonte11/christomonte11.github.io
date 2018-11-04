@@ -4,6 +4,7 @@
 // in the gallery and respond appropriately on click.
 
 function activateGallery() {
+    // Obtain general gallery colunms' info.
     let thumbnails  = document.querySelectorAll("#gallery-thumbs img");
     let largeImage  = document.querySelector   ("#gallery-photo  img");
     let galleryInfo = document.querySelector   ("#gallery-info");
@@ -12,14 +13,18 @@ function activateGallery() {
     let galleryInfoDescription = galleryInfo.querySelector(".description");
 
     thumbnails.forEach(function(thumbnail) {
+        // Get current dataset.
+        let dataset = thumbnail.dataset;
+
+        // Obtain main image, title and description via dataset.
+        let largeImageSrc         = dataset.largeVersion;
+        let largeImageTitle       = dataset.title;
+        let largeImageDescription = dataset.description;
+
+        // The class name marking the current thumbnail.
+        let theClass = "current";
+
         thumbnail.addEventListener("click", function() {
-            // Get current dataset.
-            let dataset = thumbnail.dataset;
-
-            // Obtain main image and title via dataset.
-            let largeImageSrc   = dataset.largeVersion;
-            let largeImageTitle = dataset.title;
-
             // Set main image's src, alt and title properties, all-in-one-go.
             Object.assign(largeImage, {
                 src:   largeImageSrc,
@@ -28,14 +33,10 @@ function activateGallery() {
             });
 
             // Change which thumbnail which is the current one.
-            let theClass = "current";
-
             document.querySelector("." + theClass).classList.remove(theClass);
             thumbnail.parentNode.classList.add(theClass);
 
             // Update current main image's title and description.
-            let largeImageDescription = dataset.description;
-
             galleryInfoTitle.innerHTML       = largeImageTitle;
             galleryInfoDescription.innerHTML = largeImageDescription;
         });
