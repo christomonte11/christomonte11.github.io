@@ -4,8 +4,12 @@
 // in the gallery and respond appropriately on click.
 
 function activateGallery() {
-    let thumbnails = document.querySelectorAll("#gallery-thumbs img");
-    let largeImage = document.querySelector   ("#gallery-photo  img");
+    let thumbnails  = document.querySelectorAll("#gallery-thumbs img");
+    let largeImage  = document.querySelector   ("#gallery-photo  img");
+    let galleryInfo = document.querySelector   ("#gallery-info");
+
+    let galleryInfoTitle       = galleryInfo.querySelector(".title");
+    let galleryInfoDescription = galleryInfo.querySelector(".description");
 
     thumbnails.forEach(function(thumbnail) {
         thumbnail.addEventListener("click", function() {
@@ -28,6 +32,12 @@ function activateGallery() {
 
             document.querySelector("." + theClass).classList.remove(theClass);
             thumbnail.parentNode.classList.add(theClass);
+
+            // Update current main image's title and description.
+            let largeImageDescription = dataset.description;
+
+            galleryInfoTitle.innerHTML       = largeImageTitle;
+            galleryInfoDescription.innerHTML = largeImageDescription;
         });
     });
 }
