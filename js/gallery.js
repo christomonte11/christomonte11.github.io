@@ -9,16 +9,19 @@ function activateGallery() {
 
     thumbnails.forEach(function(thumbnail) {
         thumbnail.addEventListener("click", function() {
+            // Get current dataset.
             let dataset = thumbnail.dataset;
 
-            // Set clicked image as main image.
-            largeImage.src = dataset.largeVersion;
+            // Obtain main image and title via dataset.
+            let largeImageSrc   = dataset.largeVersion;
+            let largeImageTitle = dataset.title;
 
-            // Set alt attribute of main image.
-            largeImage.alt = dataset.title;
-
-            // Set title attribute of main image.
-            largeImage.title = dataset.title;
+            // Set main image's src, alt and title properties, all-in-one-go.
+            Object.assign(largeImage, {
+                src:   largeImageSrc,
+                alt:   largeImageTitle,
+                title: largeImageTitle,
+            });
         });
     });
 }
